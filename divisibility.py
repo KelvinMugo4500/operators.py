@@ -1,6 +1,6 @@
-#Divisibility
-number = int(input("Enter a number:"))
-if number %2 == 0:
-  print("Even")
+#Checking whether a number is odd or even
+num = int (input("Enter a number:"))
+if (num % 2) == 0:
+  print("The number is even")
 else:
-  print("Odd")
+  print("The number is odd")
